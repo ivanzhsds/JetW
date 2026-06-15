@@ -68,3 +68,128 @@ body {
 .card:hover {
   transform: scale(1.03);
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card h2{
+    text-align: center;
+}
+
+.card input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.card button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.page {
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.page h1 {
+  text-align: center;
+  color: #00aaff;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+.page p {
+  text-align: center;
+  color: #c0c0c0;
+  margin-bottom: 30px;
+}
+
+.btn-buscar {
+  width: 100%;
+  padding: 12px;
+  background: #00aaff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.lista-marcas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.marca-card {
+  background: linear-gradient(145deg, #1a1a1a, #2c2c2c, #b8b8b8);
+  border: 1px solid #00aaff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0, 170, 255, 0.3);
+}
+
+.marca-card h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.marca-card span {
+  color: #00aaff;
+  font-weight: bold;
+}
+.page {
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 430px;
+  margin: 0 auto;
+  color: white;
+}
+
+.lista-marcas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.marca-card {
+  background: linear-gradient(145deg, #1a1a1a, #2c2c2c, #b8b8b8);
+  border: 1px solid #00aaff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 0 12px rgba(0, 170, 255, 0.3);
+}
+
+.btn-buscar {
+  width: 100%;
+  padding: 12px;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
